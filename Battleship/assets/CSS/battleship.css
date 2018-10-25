@@ -1,0 +1,111 @@
+body {
+  background-image: url(https://www.innerloc.com/wp-content/uploads/2017/03/bigstock-Steel-Metal-background-texture-91281215.jpg);
+  background-size: cover;
+  height: 1000px;
+}
+
+img{
+  width:30%;
+  display: inline-block;
+}
+
+
+.results{
+  font-size: 100px;
+}
+
+
+ .battleShipBoard {
+ padding-top: 40px;
+ float: left;
+ display: inline-block;
+ text-align: center;
+ margin-left: 50px;
+}
+
+.playerTwoBoard{
+  padding-top: 40px;
+  float: right;
+  display: inline-block;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.miss{
+  background-color: #DEC19B !important;
+}
+
+
+.hitwords{
+  color: red;
+}
+
+.hit{
+  background-color: red  !important;
+}
+
+form{
+  width: 100%;
+  margin-top: 20px;
+  text-align:center;
+  display: inline-block;
+}
+
+.squares {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #EAEDED;
+  border:1px solid #BDC3C7;
+  margin: 2px;
+  margin-left: 4px;
+  display: inline-block;
+  color: black;
+
+}
+
+h3{
+  font-size: 20px;
+  text-align: center;
+}
+
+.playerOnelogo{
+   color: #39ff14;
+}
+
+.playerOneFeed{
+  list-style: none;
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  margin-left: 50px;
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: #39ff14;
+  border: 2px solid #BDC3C7;
+  overflow-y: scroll;
+  border-radius: 20px;
+
+}
+
+.fireButton{
+  width: 100px;
+}
+input {
+  margin: 5px;
+  border-radius: 20px;
+  width: 70px;
+}
+
+label{
+  color: white;
+}
+
+
+p{
+  color: white;
+}
+
+
+
